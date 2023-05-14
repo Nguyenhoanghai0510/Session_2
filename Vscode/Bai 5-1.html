@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 5</title>
+</head>
+<body>
+    <h2>Bài 1: Tạo một form đưa ra thông tin sản phẩm</h2>
+    <form action="#" method="post" name="Thông tin sản phẩm">
+        <fieldset><legend>Thông tin sản phẩm</legend>
+            <label for="Tên sản phẩm">Tên sản phẩm:</label>
+            <input type="text" name="Tên sản phẩm" id="Tên sản phẩm">
+            <label for="Số lượng">Số lượng:</label>
+            <input type="number" name="Số lượng" id="Số lượng">
+        </fieldset>
+        <fieldset>
+            <legend>Thông tin giao hàng</legend>
+            <label for="Name">Họ và tên:</label>
+            <input type="text" name="Name" id="Name">
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email">
+            <label for="Phone">Số điện thoai:</label>
+            <input type="text" name="Phone" id="Phone">
+            <label for="Address">Địa chỉ:</label>
+            <textarea name="Address" id="Address" cols="30" rows="3"></textarea>
+        </fieldset>
+        <fieldset><legend>Thông tin thanh toán</legend>
+            <label for="Phương thức thanh toán">Phương thức thanh toán:</label>
+            <select name="Phương thức thanh toán" id="Phương thức thanh toán">
+                <option value="Tiền mặt">Thanh toán khi nhận hàng</option>
+            </select>
+        </fieldset>
+        <input type="submit" value="Đặt hàng">
+    </form>
+</body>
+</html>
